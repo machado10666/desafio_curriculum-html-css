@@ -1,0 +1,121 @@
+/*Estilo do corpo(body) */
+body {
+    font-family: Arial Black, Gadget, sans-serif;
+    line-height: 1.6; /* define altura entre linha */
+    color: #011BE5;
+    font-style: italic;
+    max-width: 800px; /*largura max */
+    margin: 0 auto; /*centraliza o texto */
+    padding: 20px; /* adiciona 20px espaçamento interno em todos os lados */
+    background-color:#87CEEB;
+   
+}
+
+/*container Principal */
+.container {
+    background-color: rgb(128, 128, 128);
+    padding: 30px;
+    border-radius: 10px; /*arredonda os cantos com 10px de raio*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border: 5px ridge blue;
+}
+
+/*Cabeçalho */
+header {
+    margin-bottom: 20px; /* adiciona 20px de espaçamento abaixo do cabeçalho*/
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px inset blue;
+}
+
+h1 {
+    color: black;
+    border-bottom: 5px solid blue;
+}
+
+/*Seções*/
+section {
+    margin: 20px 0;
+}
+
+/*estilizando o subtítulo h2 */
+h2 {
+    color: black;
+    margin-top: 25px; /*espaçamento acima do subtítulo*/
+    padding-left: 10px; /*adiciona 10px de recuo à esquerda*/
+    border-left: 4px solid hsl(241, 70%, 53%);
+    border-bottom:  4px solid hsl(241, 70%, 53%) ;
+}
+
+/*Parágrafos e Texto*/
+p {
+    margin: 10px 0; /*adiciona 10px acima e abaixo de cada parágrafo*/
+}
+
+/*estilização texto em negrito/forte*/
+strong {
+    color:black;
+}
+
+/*Listas Não Ordenada*/
+ul {
+    margin: 15px 0; /*adiciona 15 px de espaçamento acima e abaixo da lista*/
+    padding-left: 20px; /*adiciona 20px de recuo à esquerda*/
+}
+
+/*Estilo item lista*/
+li {
+    margin: 8px 0;
+    padding-left: 5px;
+    list-style-type: square;
+}
+
+/*linhas divisórias*/
+hr {
+    border: none; /*remove borda padrao*/
+    height: 1.5px; /* define altura da linha com 1px*/
+    background-color: black;
+    margin: 20px;
+}
+
+/*Links*/
+a {
+    color: #1C1C1C;
+    
+}
+a:link { 
+            color:black;
+         }
+
+a:hover {
+            background-color:  rgba(128, 128, 128, 0.952);
+            padding: 3px;
+         }
+
+a:active {
+            background-color: #fffb00fa;
+             padding: 3px;
+         }
+/*Rodapé*/
+footer {
+text-align: center;
+margin-top: 20px;
+color: black;
+font-size: 20;
+font-style: italic;
+background-color: white;
+border-bottom: 5px black solid;
+border-left: 5px black solid;
+padding: auto;
+}
