@@ -84,7 +84,7 @@ li {
 /*linhas divisórias*/
 hr {
     border: none; /*remove borda padrao*/
-    height: 1.5px; /* define altura da linha com 1px*/
+    height: 1.0px; /* define altura da linha com 1px*/
     background-color: black;
     margin: 20px;
 }
